@@ -58,7 +58,7 @@ public class FracCalcTestCheckpoint1 {
 			return;
 		}
 
-		// Candidate must match answer1, answer2, or must reduce to answer3
+		// Candidate must match answer1
 		if (answer1 != null && candidate.equals(answer1)) {
 			// Passed
 			return;
